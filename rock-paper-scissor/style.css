@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.container {
+    background: #123abc;
+    width: 90%;
+    height: 80vh;
+    border-radius: 10px;
+    border: 5px solid green;
+}
+
+.game-title {
+    text-align: center;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 6em;
+    left: 6em;
+}
+
+.choices .choice {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.choices .choice:hover {
+    background-color: #e0e0e0;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+}
